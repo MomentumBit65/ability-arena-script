@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0817"/>
+      <stop offset="50%" stop-color="#1a0f2e"/>
+      <stop offset="100%" stop-color="#2a0a1f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4d6d" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff4d6d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="200" cy="90" r="180" fill="url(#glow2)"/>
+  <circle cx="1000" cy="280" r="200" fill="url(#glow1)"/>
+
+  <g opacity="0.12" stroke="#ff8fa3" stroke-width="1.5" fill="none">
+    <circle cx="600" cy="180" r="150"/>
+    <circle cx="600" cy="180" r="200"/>
+  </g>
+
+  <g opacity="0.15" stroke="#c9a3ff" stroke-width="1">
+    <line x1="80" y1="60" x2="220" y2="60"/>
+    <line x1="980" y1="300" x2="1120" y2="300"/>
+    <line x1="90" y1="310" x2="90" y2="330"/>
+    <line x1="1110" y1="40" x2="1110" y2="60"/>
+  </g>
+
+  <polygon points="600,30 615,55 585,55" fill="#ff8fa3" opacity="0.2"/>
+  <polygon points="120,300 140,330 100,330" fill="#c9a3ff" opacity="0.15"/>
+  <polygon points="1080,60 1100,90 1060,90" fill="#c9a3ff" opacity="0.15"/>
+
+  <circle cx="150" cy="180" r="3" fill="#ffffff" opacity="0.25"/>
+  <circle cx="1050" cy="150" r="2.5" fill="#ffffff" opacity="0.2"/>
+  <circle cx="900" cy="70" r="2" fill="#ffffff" opacity="0.2"/>
+  <circle cx="300" cy="290" r="2" fill="#ffffff" opacity="0.2"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" font-weight="bold" fill="#ffffff">
+    <tspan>Ability Arena Script</tspan>
+  </text>
+
+  <text x="600" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22.0" fill="#c9d1d9">
+    <tspan>Tired of manually grinding Ability Arena abilities?</tspan>
+  </text>
+</svg>
